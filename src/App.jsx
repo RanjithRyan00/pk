@@ -1,10 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Contact } from './Components/Contact'
+import { Footer } from './Components/Footer'
+import { Gallery } from './Components/Gallery'
+import { Hero } from './components/Hero'
+import { Navbar } from './Components/Navbar'
+import { Services } from './Components/Services'
+import { Testimonials } from './Components/Testimonials'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -24,7 +27,6 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-        <p>hello ranjith</p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
